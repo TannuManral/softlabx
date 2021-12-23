@@ -1,0 +1,29 @@
+.columns {
+    width: 100%;
+}
+
+.column {
+    width:100%;
+}
+@media (min-width: 48rem) {
+    .column {
+        width: 50%;
+        float: left;
+    }
+    .columns {
+        content:"";
+        display: table;
+        clear: both;
+    }
+}
+
+img {
+    border: 6px;
+    border-radius: 10px;
+    padding: 8px;
+    width: 350px;
+
+
+}
+
+
